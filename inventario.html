@@ -6,13 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 </head>
-<body style="background-color: rgb(236, 231, 225);">
+<body>
     <table  align="center" style="width: 1200px; height: 100px;">
-        <tr align="center" style="font-size: xx-large;"">
-            <td><b>inventario</b></td>
+        <tr align="center" style="font-size: xx-large;"> 
+            <td style="font-size: 50px;"><b>inventario</b></td>
         </tr>
     </table>
-    <table  border="1" align="center" style="width: 1200px;">
+    <table  border="1" align="center" style="width: 1200px;background-color:rgb(211, 207, 203)">
         <thead align="center" style="width: 100%;height: 30px;">
             <td style="width: 150px;">
                
@@ -26,11 +26,11 @@
             <td style="width: 100px;">acciones</td>
         </thead>
         
-        <tr align="center" style="width: 80%;height: 30px;">
+        <tr align="center" style="width: 80%;height: 30px;background-color:rgb(211, 207, 203)">
             <td rowspan="4">
                 <button style="background-color: rgb(0, 170, 255);width: 150px;border-radius: 30px;height: 40px;"><b>listar productos</b></button>
                 <br>
-                <button style="background-color: rgb(0, 170, 255);width: 150px;border-radius: 30px;height: 40px;"><b>crear nuevo producto</b></button>
+                <button style="background-color: rgb(0, 170, 255);width: 150px;border-radius: 30px;height: 40px;"><b><a style="color: aliceblue;" href="./ingreso.html">ingresar productos</a></b></button>
             </td>
             <td> <img style="width: 100px;height: 100px;" src="data:image/jpeg;base64,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" alt=""></td>
             <td>chaqueta</td>
@@ -38,7 +38,11 @@
             <td>5</td>
             <td>jacket color miel manga larga botones</td>
             <td>001</td>
-            <td><i class="fa-solid fa-eye fa-xl" style="color: #1c71d8;"></i>&nbsp;<i class="fa-solid fa-pen-to-square fa-xl" style="color: #1c71d8;"></i>&nbsp;<i class="fa-regular fa-trash-can fa-xl" style="color: #ed333b;"></i></td>
+            <td><a href="./ingreso.html"><i class="fa-solid fa-eye fa-xl" style="color: #1c71d8;"></i></a>
+                &nbsp;
+                <a href="./modificar.html"><i class="fa-solid fa-pen-to-square fa-xl" style="color: #1c71d8;"></i></a>
+                &nbsp;
+                <a href="./eliminar.html"><i class="fa-regular fa-trash-can fa-xl" style="color: #ed333b;"></i></a></td>
         </tr>
         <tr align="center" style="width: 100%;height: 30px;">
             
@@ -48,7 +52,11 @@
             <td>10</td>
             <td>blusa escote manga larga color negro</td>
             <td>002</td>
-            <td><i class="fa-solid fa-eye fa-xl" style="color: #1c71d8;"></i>&nbsp;<i class="fa-solid fa-pen-to-square fa-xl" style="color: #1c71d8;"></i>&nbsp;<i class="fa-regular fa-trash-can fa-xl" style="color: #ed333b;"></i></td>
+            <td><a href="./ingreso.html"><i class="fa-solid fa-eye fa-xl" style="color: #1c71d8;"></i></a>
+                &nbsp;
+                <a href="./modificar.html"><i class="fa-solid fa-pen-to-square fa-xl" style="color: #1c71d8;"></i></a>
+                &nbsp;
+                <a href="./eliminar.html"><i class="fa-regular fa-trash-can fa-xl" style="color: #ed333b;"></i></a></td>
         </tr>
         <tr align="center" style="width: 80%;height: 30px;">
         
@@ -58,7 +66,11 @@
             <td>20</td>
             <td>jean color azul light hombre</td>
             <td>003</td>
-            <td><i class="fa-solid fa-eye fa-xl" style="color: #1c71d8;"></i>&nbsp;<i class="fa-solid fa-pen-to-square fa-xl" style="color: #1c71d8;"></i>&nbsp;<i class="fa-regular fa-trash-can fa-xl" style="color: #ed333b;"></i></td>
+            <td><a href="./ingreso.html"><i class="fa-solid fa-eye fa-xl" style="color: #1c71d8;"></i></a>
+                &nbsp;
+                <a href="./modificar.html"><i class="fa-solid fa-pen-to-square fa-xl" style="color: #1c71d8;"></i></a>
+                &nbsp;
+                <a href="./eliminar.html"><i class="fa-regular fa-trash-can fa-xl" style="color: #ed333b;"></i></a></td>
         </tr>
         <tr align="center" style="width: 80%;height: 30px;">
             
@@ -68,7 +80,13 @@
             <td>9</td>
             <td>camiseta tipo polo hombre color salmon </td>
             <td>004</td>
-            <td><i class="fa-solid fa-eye fa-xl" style="color: #1c71d8;"></i>&nbsp;<i class="fa-solid fa-pen-to-square fa-xl" style="color: #1c71d8;"></i>&nbsp;<i class="fa-regular fa-trash-can fa-xl" style="color: #ed333b;"></i></td>
+            <td>
+                <a href="./ingreso.html"><i class="fa-solid fa-eye fa-xl" style="color: #1c71d8;"></i></a>
+                &nbsp;
+                <a href="./modificar.html"><i class="fa-solid fa-pen-to-square fa-xl" style="color: #1c71d8;"></i></a>
+                &nbsp;
+                <a href="./eliminar.html"><i class="fa-regular fa-trash-can fa-xl" style="color: #ed333b;"></i></a>
+            </td>
         </tr>
     </table>
     
